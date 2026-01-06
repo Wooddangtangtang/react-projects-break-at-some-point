@@ -1,7 +1,9 @@
 import express from "express";
+import cors from "cors";
 
 const app = express();
 app.use(express.json());
+app.use(cors());
 
 // ---- in-memory store (프로세스 재시작 시 초기화) ----
 let seq = 1;
