@@ -9,6 +9,11 @@ app.use(cors());
 let seq = 1;
 let items = []; // [{ id: number, value: number }]
 
+// root: 배포 후 브라우저로 / 접근했을 때 정상 확인용
+app.get("/", (_req, res) => {
+  res.status(200).send("OK");
+});
+
 // list
 app.get("/api/items", (_req, res) => {
   res.json(items);

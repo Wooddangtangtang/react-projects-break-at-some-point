@@ -2,26 +2,19 @@ import { useEffect, useState } from "react";
 
 const api = {
   async list() {
-    const res = await fetch(`${import.meta.env.VITE_API_HOST}/api/items`);
+    const res = await fetch("/api/items");
     return res.json(); // [{ id, value }]
   },
   async create() {
-    const res = await fetch(`${import.meta.env.VITE_API_HOST}/api/items`, {
-      method: "POST",
-    });
+    const res = await fetch("/api/items", { method: "POST" });
     return res.json(); // { id, value }
   },
   async update(id) {
-    const res = await fetch(
-      `${import.meta.env.VITE_API_HOST}/api/items/${id}`,
-      {
-        method: "PATCH",
-      }
-    );
+    const res = await fetch(`/api/items/${id}`, { method: "PATCH" });
     return res.json(); // { id, value }
   },
   async remove(id) {
-    await fetch(`${import.meta.env.VITE_API_HOST}/api/items/${id}`, {
+    await fetch(`/api/items/${id}`, {
       method: "DELETE",
     });
   },
