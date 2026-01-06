@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://${VITE_RENDER_HOST}/api/:path*"
+      "destination": "https://ch1-api-server.onrender.com/api/:path*"
     }
   ]
 }
