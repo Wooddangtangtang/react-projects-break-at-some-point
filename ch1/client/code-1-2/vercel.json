@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "__SET_API_SERVER_URL__/api/:path*"
+    }
+  ]
+}
