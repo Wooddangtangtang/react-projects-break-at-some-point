@@ -9,7 +9,7 @@ export default function App() {
   const hasForbiddenWord = trimmed.includes("admin");
 
   const error = (() => {
-    if (isEmpty) return "이름을 입력해주세요.";
+    if (isEmpty) return "이름을 입력해 주세요.";
     if (isTooShort) return "이름은 2글자 이상이어야 합니다.";
     if (hasForbiddenWord) return "사용할 수 없는 이름입니다.";
     return "";

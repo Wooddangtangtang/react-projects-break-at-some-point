@@ -1,16 +1,13 @@
-# React + Vite
+# Code 2_3
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+이 레포는 **「어느 순간 무너지는 리액트 프로젝트」** Chapter 2에 수록된 `코드 2_3` 예제입니다.
 
-Currently, two official plugins are available:
+이 예제는 **검증 규칙이 증가하면서 컴포넌트 내부에 판단 로직이 집중되는 상황**을 보여줍니다.  
+상태를 줄였음에도 책임 복잡도가 남아 있는 이유를 관찰할 수 있습니다.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 실행 방법
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```

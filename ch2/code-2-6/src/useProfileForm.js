@@ -10,13 +10,13 @@ export default function useProfileForm() {
 
   const errors = {
     email: (() => {
-      if (!email) return "이메일을 입력해주세요.";
+      if (!email) return "이메일을 입력해 주세요.";
       if (!email.includes("@")) return "이메일 형식이 올바르지 않습니다.";
       return "";
     })(),
 
     nickname: (() => {
-      if (!nickname) return "닉네임을 입력해주세요.";
+      if (!nickname) return "닉네임을 입력해 주세요.";
 
       if (isCompanyEmail) {
         if (!nickname.includes(".")) {
