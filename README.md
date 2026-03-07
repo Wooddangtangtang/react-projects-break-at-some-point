@@ -4,11 +4,13 @@
   <img src="./assets/book-cover.jpg" width="320"/>
 </p>
 
-📖 **리디북스 (전자책)**  
-https://ridibooks.com/books/2773000110
+📖 **책 보기**
 
-📚 **노션 (온라인 버전 / PDF 다운로드 가능)**  
-https://www.notion.so/307df84d989e8053a04cf1bb1ab093c4
+- [리디북스 (전자책)](https://ridibooks.com/books/2773000110)
+
+- [노션 (온라인 버전 / PDF 다운로드 가능)](https://www.notion.so/307df84d989e8053a04cf1bb1ab093c4)
+
+---
 
 이 레포지토리는 전자책 **「어느 순간 무너지는 리액트 프로젝트」** 에 수록된 예제 코드를 정리한 공식 저장소입니다.
 
