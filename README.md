@@ -1,6 +1,8 @@
 # [전자책] 어느 순간 무너지는 리액트 프로젝트
 
-![book-cover](./assets/book-cover.jpg)
+<p align="center">
+  <img src="./assets/book-cover.jpg" width="320"/>
+</p>
 
 📖 **리디북스 (전자책)**  
 https://ridibooks.com/books/2773000110
